@@ -32,21 +32,19 @@ class GfG
     Node removeDuplicates(Node head)
     {
 	// Your code here	
+    	HashSet<Integer> set = new HashSet();
     	Node ptr = head;
+    	Node prev = null;
     	while(ptr != null) {
-    	    Node curr = ptr.next;
-    	    Node prev = ptr;
-    	    while(curr != null) {
-    	        if(ptr.data == curr.data) {
-    	            prev.next = curr.next;
-    	            curr = curr.next;
-    	        }
-    	        else {
-    	            prev = prev.next;
-    	            curr = curr.next;
-    	        }
+    	    if(set.contains(ptr.data)) {
+    	        prev.next = ptr.next;
+    	        ptr = ptr.next;
     	    }
-    	    ptr = ptr.next;
+    	    else {
+    	        set.add(ptr.data);
+    	        prev = ptr;
+    	        ptr = ptr.next;
+    	    }
     	}
     	return head;
     }
