@@ -11,6 +11,7 @@
 
 // Input:
 // LinkedList: 2->4->6->7->5->1
+
 // Output: 2 4 6 5 1
 // Your Task:
 // The task is to complete the function deleteMid() which should delete the middle element from the linked list and return the head of the modified linked list. If the linked list is empty then it should return NULL.
