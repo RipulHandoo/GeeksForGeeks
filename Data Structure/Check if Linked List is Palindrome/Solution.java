@@ -6,6 +6,7 @@
 // Input:
 // N = 3
 // value[] = {1,2,1}
+
 // Output: 1
 // Explanation: The given linked list is
 // 1 2 1 , which is a palindrome and
