@@ -6,6 +6,7 @@
 // Input:
 // LinkedList = 1 <--> 3 <--> 4 
 // x = 3
+
 // Output: 1 3  
 // Explanation: After deleting the node at
 // position 3 (position starts from 1),
