@@ -69,4 +69,67 @@ class Solution
     }
 }
 
+// Second Solution
+public static void sort012(int a[], int n)
+
+    {
+
+        // code here 
+
+        int low = 0;
+
+        int mid = 0;
+
+        int high = a.length-1;
+
+        
+
+        while(mid <= high)
+
+        {
+
+            switch(a[mid])
+
+            {
+
+                case 0:
+
+                    int temp = a[low];
+
+                    a[low] = a[mid];
+
+                    a[mid] = temp;
+
+                    low++;
+
+                    mid++;
+
+                    break;
+
+                
+
+                case 1:
+
+                    mid++;
+
+                    break;
+
+                
+
+                case 2:
+
+                    temp = a[high];
+
+                    a[high] = a[mid];
+
+                    a[mid] = temp;
+
+                    high--;
+
+            }
+
+        }
+
+    }
+
 
