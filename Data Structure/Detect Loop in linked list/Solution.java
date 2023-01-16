@@ -5,6 +5,7 @@
 // Input:
 // N = 3
 // value[] = {1,3,4}
+
 // x(position at which tail is connected) = 2
 // Output: True
 // Explanation: In above test case N = 3.
