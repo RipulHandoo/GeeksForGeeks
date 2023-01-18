@@ -8,7 +8,6 @@
 // K = 4
 // Output: 3
 // Explanation: 4 appears at index 3.
-
 // Example 2:
 
 
