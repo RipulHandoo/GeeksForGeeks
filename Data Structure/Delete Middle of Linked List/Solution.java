@@ -3,7 +3,6 @@
 // If the input linked list is NULL or has 1 node, then it should return NULL
 
 // Example 1:
-
 // Input:
 // LinkedList: 1->2->3->4->5
 // Output: 1 2 4 5
