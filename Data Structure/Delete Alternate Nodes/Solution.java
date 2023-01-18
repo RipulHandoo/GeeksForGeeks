@@ -10,7 +10,6 @@
 // results in the linked list with elements
 // 1->3->5.
  
-
 // Example 2:
 
 // Input:
