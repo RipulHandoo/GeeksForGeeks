@@ -2,7 +2,6 @@
 // Given a singly linked list. The task is to find the length of the linked list, where length is defined as the number of nodes in the linked list.
 
 // Example 1:
-
 // Input:
 // LinkedList: 1->2->3->4->5
 // Output: 5
