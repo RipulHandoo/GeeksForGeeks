@@ -4,7 +4,6 @@
 // 1-> 2->3->4->5, then the middle node of the list is 3.
 // If there are two middle nodes(in case, when N is even), print the second middle element.
 // For example, if the linked list given is 1->2->3->4->5->6, then the middle node of the list is 4.
-
 // Example 1:
 
 // Input:
