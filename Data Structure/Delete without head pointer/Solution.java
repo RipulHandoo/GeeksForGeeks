@@ -11,8 +11,8 @@
 // Explanation: After deleting 1 from the
 // linked list, we have remaining nodes
 // as 2.
-// Example 2:
 
+// Example 2:
 // Input:
 // N = 4
 // value[] = {10,20,4,30}
