@@ -1,3 +1,5 @@
+# Delete alternate characters
+
 # Given a string S as input. Delete the characters at odd indices of the string.
 
 Example 1:
