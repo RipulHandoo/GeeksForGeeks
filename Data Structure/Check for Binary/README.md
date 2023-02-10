@@ -10,3 +10,16 @@ Output:
 Explanation:
 Since string contains only 0 and 1, output is 1.
 
+# Your Task:
+Complete the function isBinary() which takes an string str as input parameter and returns 1 if str is binary and returns 0 otherwise.
+
+ 
+
+Expected Time Complexity: O(|s|)
+Expected Auxiliary Space: O(1)
+
+ 
+
+# Constraints:
+1 <=T<= 50
+1 <=Length of str<= 10000
