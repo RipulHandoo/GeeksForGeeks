@@ -5,3 +5,13 @@ Example 1:
 
 Input: n = 55555
 Output: Yes
+# Your Task:
+You don't need to read or print anything. Your task is to complete the function is_palindrome() which takes the number as input parameter and returns "Yes" if it is palindrome otherwise returns "No"(Without quotes).
+ 
+
+Expected Time Complexity: O(x)
+Expected Space Complexity: O(x) where x is number of digits in n.
+ 
+
+# Constraints:
+1 <= n <= 1000
