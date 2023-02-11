@@ -8,3 +8,12 @@ Input:
 3    2
 Output: 1 3
 
+# Your Task:
+You just have to complete the function leftView() that returns an array containing the nodes that are in the left view. The newline is automatically appended by the driver code.
+Expected Time Complexity: O(N).
+Expected Auxiliary Space: O(N).
+
+# Constraints:
+0 <= Number of nodes <= 100
+1 <= Data of a node <= 1000
+
