@@ -15,3 +15,16 @@ having 3 nodes and 2 edges, both trees
 are identical having the root as 1,
 left child of 1 is 2 and right child
 of 1 is 3.
+
+
+# Your task:
+Since this is a functional problem you don't have to worry about input, you just have to complete the function isIdentical() that takes two roots as parameters and returns true or false. The printing is done by the driver code.
+
+
+Expected Time Complexity: O(N).
+Expected Auxiliary Space: O(Height of the Tree).
+
+
+Constraints:
+1 <= Number of nodes <= 105
+1 <=Data of a node <= 105
