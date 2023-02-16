@@ -13,3 +13,16 @@ K = 4
 Output: 1 2 3 4
 Explanation: After inserting the node 4
 Inorder traversal will be 1 2 3 4.
+
+# Your Task:
+You don't need to read input or print anything. Your task is to complete the function insert() which takes the root of the BST and Key K as input parameters and returns the root of the modified BST after inserting K. 
+Note: The generated output contains the inorder traversal of the modified tree.
+
+
+Expected Time Complexity: O(Height of the BST).
+Expected Auxiliary Space: O(Height of the BST).
+
+
+# Constraints:
+1 <= Number of nodes initially in BST <= 105
+1 <= K <= 106
