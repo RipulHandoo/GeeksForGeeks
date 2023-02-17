@@ -19,3 +19,14 @@ Output:
 4
 Explanation: 
 Terms are 4, 4, 4, 4, 4, 4
+# Your Task:  
+You don't need to read input or print anything. Your task is to complete the function solve( ) which takes integer N, K, and an array GeekNum[] as input parameters and returns the Nth term of the Geeky series.
+
+Expected Time Complexity: O(N)
+Expected Space Complexity: O(N)
+
+# Constraints:
+1 ≤ K < 30
+1 ≤ N ≤ 70
+K ≤ N
+0 < GeekNum[ ] < 100
