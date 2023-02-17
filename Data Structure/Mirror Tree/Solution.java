@@ -5,6 +5,7 @@ class Solution {
             return;
         }
         
+//         this will be condition by which we'll cover all the cases as if the node has both child or have only one child or donot have any child
         Node temp = node.left;
         node.left = node.right;
         node.right = temp;
