@@ -4,3 +4,21 @@
 # Note: It is guaranteed than the given input will form BST, except for 2 nodes that will be wrong.
  
 Example 1:
+Input:
+         11
+       /    \
+      3      17
+       \    /
+        4  10
+Output: 1 
+Explanation: 
+By swapping nodes 11 and 10, the BST 
+can be fixed.
+# Your Task:
+You don't need to take any input. Just complete the function correctBst() that takes root node as parameter. The function should return the root of corrected BST. BST will then be checked by driver code and 0 or 1 will be printed.
+
+Expected Time Complexity : O(Number of nodes)
+Expected Auxiliary Space : O(logN), N = number of nodes
+ 
+# Constraints:
+1 <= Number of nodes <= 10^5
