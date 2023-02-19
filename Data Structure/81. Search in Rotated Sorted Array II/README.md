@@ -14,3 +14,11 @@ Example 1:
 
 Input: nums = [2,5,6,0,0,1,2], target = 0
 Output: true
+
+
+# Constraints:
+
+1 <= nums.length <= 5000
+-104 <= nums[i] <= 104
+nums is guaranteed to be rotated at some pivot.
+-104 <= target <= 104
