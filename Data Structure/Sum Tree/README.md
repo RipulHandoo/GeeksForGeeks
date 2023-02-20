@@ -17,3 +17,15 @@ Explanation:
 The sum of left subtree and right subtree is
 1 + 2 = 3, which is the value of the root node.
 Therefore,the given binary tree is a sum tree.
+
+
+# Your Task: 
+You don't need to read input or print anything. Complete the function isSumTree() which takes root node as input parameter and returns true if the tree is a SumTree else it returns false.
+
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(Height of the Tree)
+
+
+# Constraints:
+1 ≤ number of nodes ≤ 104**
