@@ -16,3 +16,17 @@ Explanation:The connected tree is
        3 ------> NULL
      /   \
     1---> 2 -----> NULL
+
+# Your Task:
+You don't have to read input or print anything. Complete the function connect() that takes the root of the tree as  input parameter and connects the nodes that lie at the same level. 
+
+Note: The generated output will contain 2 lines. First line contains the level order traversal of the tree and second line contains the inorder traversal of the tree.
+
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(N)
+
+
+# Constraints:
+1 ≤ Number of nodes ≤ 105
+0 ≤ Data of a node ≤ 105
