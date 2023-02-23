@@ -26,3 +26,15 @@ This is one possible path.
 1 0 1
 1 1 1
 This is another possible path.
+
+
+# Your Task:  
+You don't need to read input or print anything. Your task is to complete the function uniquePaths() which takes 2 integers n, and m, and a matrix of size n*m as input and returns the number of unique paths from cell (1,1) to (n,m) modulo (109+7)
+
+
+Expected Time Complexity: O(n*m)
+Expected Auxiliary Space: O(n*m)
+
+
+# Constraints:
+1 ≤ n*m ≤ 106
