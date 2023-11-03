@@ -1,6 +1,5 @@
 class Solution
-{
-  
+{  
 //   this method is used to reverse the linked list
     static Node reverse(Node head) {
         Node prev = null;
